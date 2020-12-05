@@ -6,7 +6,7 @@ namespace FbStats.Data.DataObjects
 {
     public class ScheduleItem
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public int HomeTeamId { get; set; }
         public int VisitorTeamId { get; set; }
         public int WeekNumber { get; set; }
