@@ -9,6 +9,10 @@ namespace FbStats.Data.Contexts
 {
     public class SqlContext : DbContext
     {
+        public SqlContext(string connectionString)
+        {
+            this.connectionString = connectionString;
+        }
 
         private string connectionString;
 
